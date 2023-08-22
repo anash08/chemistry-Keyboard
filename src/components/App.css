@@ -1,0 +1,54 @@
+.app {
+  display: flow;
+  /* flex-direction: column; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  height: 50vh;
+  font-size: 10px;
+}
+
+.input-display {
+  border: 1px solid #ccc;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.keyboard {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 5px;
+}
+
+.controls {
+  margin-top: 10px;
+  margin-left: 33vw;
+}
+
+/* Add more styling as needed */
+
+
+.Header-img {
+}
+
+.logo-img {
+  margin-left: 10ch;
+  height: 6vh;
+
+}
+.heading {
+  margin-left: 11ch;
+  font-size: 13px;
+  margin-top: -2vh;
+
+
+}
+
+.latex-display {
+  display: block; /* Make the Latex div take the full width */
+  margin-top: 1rem; /* Add some spacing between the input and Latex divs */
+  white-space: pre-wrap; /* Allow line breaks when text overflows */
+}
+
+.chemistryEditor {
+  
+}
